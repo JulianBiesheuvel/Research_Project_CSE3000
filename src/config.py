@@ -1,0 +1,30 @@
+# Training
+EPOCHS = 40
+BATCH_SIZE_TRAIN = 64
+LEARNING_RATE = 0.0000005
+# MOMENTUM = 0.5
+LOG_INTERVAL = 10
+RANDOM_SEED = 1
+
+# Testing
+BATCH_SIZE_TEST = 100
+
+# Validation
+BATCH_SIZE_VAl = 100
+
+# Dataset Size
+DATASET_SIZE_TRAIN = 8000
+DATASET_SIZE_TEST_VAL = 4000
+
+# K-fold
+K_FOLDS = 5
+
+# Dataset Creation
+METRIC = "mean"
+
+WRITING = True
+
+# NORMALIZATION = False
+
+TESTING = False
+
